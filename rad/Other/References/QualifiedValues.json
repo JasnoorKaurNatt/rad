@@ -1,0 +1,60 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr18e_usertype_forms",
+      "Namespace": "Usertypes (Forms)",
+      "Values": {
+        "Information": "ae8c8442-13fd-4991-864e-e8e27721fbf9"
+      }
+    },
+    {
+      "Kind": "default.cds_cr18e_user_forms",
+      "Namespace": "Users (Forms)",
+      "Values": {
+        "Information": "c31b3d8e-a4ee-4838-9ad1-e4d30101adb7"
+      }
+    },
+    {
+      "Kind": "default.cds_cr18e_patient_forms",
+      "Namespace": "Patients (Forms)",
+      "Values": {
+        "Information": "448af49e-506d-4d3b-8ed8-e56b9c8f3cab"
+      }
+    },
+    {
+      "Kind": "default.cds_cr18e_appointments_forms",
+      "Namespace": "Appointments (Forms)",
+      "Values": {
+        "Information": "9331887c-ef87-40a8-9868-f46a6c6fb67d"
+      }
+    },
+    {
+      "Kind": "default.cds_cr18e_provider_forms",
+      "Namespace": "Providers (Forms)",
+      "Values": {
+        "Information": "81e756fe-45d2-462d-b8a3-efedaefcbd52"
+      }
+    },
+    {
+      "Kind": "default.cds_cr18e_treatment_forms",
+      "Namespace": "Treatments (Forms)",
+      "Values": {
+        "Information": "e9d68f4a-0b54-43b9-b250-ecd62efbbac1"
+      }
+    },
+    {
+      "Kind": "default.cds_cr18e_employee_forms",
+      "Namespace": "Employees (Forms)",
+      "Values": {
+        "Information": "77e4cb88-e201-4ebd-a09b-d9172fee4945"
+      }
+    },
+    {
+      "Kind": "default.cds_cr18e_newtable_forms",
+      "Namespace": "New tables (Forms)",
+      "Values": {
+        "Information": "ea095838-48df-474e-90c5-f3b0834c2509"
+      }
+    }
+  ]
+}
