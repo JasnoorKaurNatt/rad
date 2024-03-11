@@ -1,0 +1,92 @@
+{
+  "3792c4a0-96d3-4578-96d2-fb339ff2a6b5": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/alexsp/sporelease/1.0.1682.3673/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://guscanada.sharepoint.com/sites/RAD12": {
+        "dataSources": {
+          "Users": {
+            "tableName": "0967754f-2c0c-4e31-aa3a-1965c936527b"
+          },
+          "Usertype": {
+            "tableName": "96500413-f189-40fa-aee9-70e50d9b5ba7"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Users",
+      "Usertype"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "3792c4a0-96d3-4578-96d2-fb339ff2a6b5"
+  },
+  "630cad97-9334-4d5e-8e28-684267bbae52": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/alexsp/sporelease/1.0.1682.3673/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://guscanada.sharepoint.com/sites/RAD12": {
+        "dataSources": {
+          "Appointment": {
+            "tableName": "53bf4675-11bd-4223-9b2b-6675d837c43e"
+          },
+          "Employee": {
+            "tableName": "e6e136db-6868-4dcd-a54f-602c5cadf94b"
+          },
+          "Patient": {
+            "tableName": "100016d5-71a3-4c25-89ca-ad1190c82e04"
+          },
+          "Provider": {
+            "tableName": "9bfb8627-4ac0-40b3-be4b-be6b23cacbe2"
+          },
+          "Treatment": {
+            "tableName": "b734506d-dab9-4fad-8d01-81a49054f20c"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Treatment",
+      "Provider",
+      "Patient",
+      "Employee",
+      "Appointment"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "630cad97-9334-4d5e-8e28-684267bbae52"
+  },
+  "e9c4620c-a412-47b9-9697-db6967225540": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1672/1.0.1672.3545/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e9c4620c-a412-47b9-9697-db6967225540"
+  }
+}

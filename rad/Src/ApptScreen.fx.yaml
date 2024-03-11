@@ -1,0 +1,268 @@
+"ApptScreen As screen.'autoLayout_Sidebar_ver1.0'":
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+    OnVisible: |-
+        =UpdateContext({ varStyle: { topBarHeight:52, topBarTitleSize:12, topBarTitleLeftPadding:12, topBarIconRightPadding:12, topBarTitleLeftPaddingWithButton:8, iconSize:16, largeIconSize:50, iconPadding:12, spaceBetweenIcons:8, deletePageSideMargins:200, galleryBarHeight:70, searchBarHeight:32, deleteTextHeight:120, deleteConfirmButtonHeight:40, iconButtonFill:RGBA(0,0,0,0.2), iconButtonSmallWidth:30, iconFill: ColorValue("#6264A7"), dividerFill: ColorValue("#EAE9E8"), formLabelFontSize: 10.5, focusBorderColor: ColorValue("#000000"), focusBorderThickness: 2, borderStyle: BorderStyle.Dashed }});
+
+    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =16
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =2
+
+            Icon1 As icon.LogJournal:
+                AlignInContainer: =AlignInContainer.Stretch
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(153, 207, 236, 1)
+                DisabledBorderColor: =RGBA(243, 242, 241, 1)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                Height: =32
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.LogJournal
+                PaddingBottom: =3
+                PaddingLeft: =3
+                PaddingRight: =3
+                PaddingTop: =3
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =32
+                ZIndex: =1
+
+        BottomContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(245, 245, 245, 1)
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutGap: =16
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            LayoutWrap: =true
+            PaddingBottom: =2
+            PaddingLeft: =2
+            PaddingRight: =2
+            PaddingTop: =2
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            ZIndex: =3
+
+            SidebarContainer1 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                Fill: =RGBA(255, 255, 255, 1)
+                FillPortions: =0
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =8
+                RadiusBottomRight: =8
+                RadiusTopLeft: =8
+                RadiusTopRight: =8
+                ZIndex: =1
+
+                Button2 As Button:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    Alignment: =Align.Center
+                    BorderColor: =RGBA(102, 182, 227, 1)
+                    BorderRadius: =2
+                    BorderThickness: =2
+                    ButtonType: ='Button.ButtonType'.Primary
+                    DisabledBorderColor: =
+                    DisabledFillColor: =
+                    DisabledTextColor: =
+                    DisplayMode: =DisplayMode.Edit
+                    FillColor: =RGBA(233, 232, 231, 1)
+                    FillPortions: =1
+                    Height: =32
+                    HoverBorderColor: =RGBA(153, 207, 236, 1)
+                    HoverFillColor: =RGBA(204, 231, 246, 1)
+                    HoverTextColor: =
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =96
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    PressedBorderColor: =RGBA(153, 207, 236, 1)
+                    PressedFillColor: =RGBA(204, 231, 246, 1)
+                    PressedTextColor: =RGBA(255, 255, 255, 1)
+                    Text: ="Appointments"
+                    TextColor: =RGBA(0, 0, 0, 1)
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =1
+
+                Button3 As Button:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    BorderColor: =RGBA(102, 182, 227, 1)
+                    BorderRadius: =2
+                    BorderThickness: =2
+                    DisabledBorderColor: =
+                    DisabledFillColor: =
+                    DisabledTextColor: =
+                    DisplayMode: =DisplayMode.Edit
+                    FillColor: =RGBA(233, 232, 231, 1)
+                    FillPortions: =1
+                    Height: =32
+                    HoverBorderColor: =RGBA(153, 207, 236, 1)
+                    HoverFillColor: =RGBA(204, 231, 246, 1)
+                    HoverTextColor: =
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =96
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    PressedBorderColor: =RGBA(153, 207, 236, 1)
+                    PressedFillColor: =RGBA(204, 231, 246, 1)
+                    PressedTextColor: =RGBA(255, 255, 255, 1)
+                    Text: ="Chart"
+                    TextColor: =RGBA(0, 0, 0, 1)
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =2
+
+                Button4 As Button:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    BorderColor: =RGBA(102, 182, 227, 1)
+                    BorderRadius: =2
+                    BorderThickness: =2
+                    DisabledBorderColor: =
+                    DisabledFillColor: =
+                    DisabledTextColor: =
+                    DisplayMode: =DisplayMode.Edit
+                    FillColor: =RGBA(233, 232, 231, 1)
+                    FillPortions: =1
+                    Height: =32
+                    HoverBorderColor: =RGBA(153, 207, 236, 1)
+                    HoverFillColor: =RGBA(204, 231, 246, 1)
+                    HoverTextColor: =
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =96
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    PressedBorderColor: =RGBA(153, 207, 236, 1)
+                    PressedFillColor: =RGBA(204, 231, 246, 1)
+                    PressedTextColor: =RGBA(255, 255, 255, 1)
+                    Text: ="Treatment Plan"
+                    TextColor: =RGBA(0, 0, 0, 1)
+                    VerticalAlignment: =VerticalAlign.Middle
+                    Width: =96
+                    X: =0
+                    Y: =0
+                    ZIndex: =3
+
+                Button5 As Button:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    BorderColor: =RGBA(102, 182, 227, 1)
+                    BorderRadius: =2
+                    BorderThickness: =2
+                    DisabledBorderColor: =
+                    DisabledFillColor: =
+                    DisabledTextColor: =
+                    DisplayMode: =DisplayMode.Edit
+                    FillColor: =RGBA(233, 232, 231, 1)
+                    FillPortions: =1
+                    Height: =32
+                    HoverBorderColor: =RGBA(153, 207, 236, 1)
+                    HoverFillColor: =RGBA(204, 231, 246, 1)
+                    HoverTextColor: =
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =96
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    PressedBorderColor: =RGBA(153, 207, 236, 1)
+                    PressedFillColor: =RGBA(204, 231, 246, 1)
+                    PressedTextColor: =RGBA(255, 255, 255, 1)
+                    Text: ="Account"
+                    TextColor: =RGBA(0, 0, 0, 1)
+                    Width: =96
+                    X: =0
+                    Y: =0
+                    ZIndex: =4
+
+                Button6 As Button:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    BorderColor: =RGBA(102, 182, 227, 1)
+                    BorderRadius: =2
+                    BorderThickness: =2
+                    DisabledBorderColor: =
+                    DisabledFillColor: =
+                    DisabledTextColor: =
+                    DisplayMode: =DisplayMode.Edit
+                    FillColor: =RGBA(233, 232, 231, 1)
+                    FillPortions: =1
+                    Height: =32
+                    HoverBorderColor: =RGBA(153, 207, 236, 1)
+                    HoverFillColor: =RGBA(204, 231, 246, 1)
+                    HoverTextColor: =
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =96
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    PressedBorderColor: =RGBA(153, 207, 236, 1)
+                    PressedFillColor: =RGBA(244, 244, 243, 1)
+                    PressedTextColor: =RGBA(255, 255, 255, 1)
+                    Text: ="Employees"
+                    TextColor: =RGBA(0, 0, 0, 1)
+                    Width: =96
+                    X: =0
+                    Y: =0
+                    ZIndex: =5
+
+            MainContainer1 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                Fill: =RGBA(255, 255, 255, 1)
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =8
+                RadiusBottomRight: =8
+                RadiusTopLeft: =8
+                RadiusTopRight: =8
+                ZIndex: =2
+
+                Label1 As Label:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    Color: =
+                    DisplayMode: =DisplayMode.Edit
+                    FillPortions: =1
+                    Height: =32
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =320
+                    OnChange: =false
+                    PCFTeamsTheme: ="default"
+                    Width: =320
+                    X: =0
+                    Y: =0
+                    ZIndex: =1
+
